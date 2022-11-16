@@ -1,11 +1,11 @@
 import './App.css';
+import MainContainer from './components/unit/main/main.container';
+
 
 function App() {
   return (
     <div>
-     ds
-     sfd
-     fdsg
+     <MainContainer />
     </div>
   )
 }
