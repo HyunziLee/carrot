@@ -10,8 +10,8 @@ export default function UploadUI(props){
     <Input title="상세설명" register={props.register} value="contents"/>
     <Input title="가격" register={props.register} value="price" />
   
-    <UploadButton />
-    <Button type="submit" onClick={props.onChangeInputs}>등록하기</Button>
+    <UploadButton uploadFile={props.uploadFile} />
+    <Button type="submit" onClick={props.onChangeInput}>등록하기</Button>
   </form>
   )
 }

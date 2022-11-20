@@ -13,8 +13,8 @@ export default function ActionAreaCard(props) {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          image={props.result.image}
+          alt="등록된 이미지가 없습니다."
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
