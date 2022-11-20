@@ -20,6 +20,8 @@ const firebaseConfig = {
 export const db = getFirestore(app);
 
 
+
+
 // 필요한 곳에서 사용할 수 있도록 내보내기
 
 // 필요한 곳에서 사용할 수 있도록 내보내기
